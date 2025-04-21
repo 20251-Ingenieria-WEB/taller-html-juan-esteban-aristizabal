@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--metadatos para la codificacion y el viewport -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rick and Morty Search</title>
+  <!-- fuente para el titulo -->
+  <link href="https://fonts.cdnfonts.com/css/get-schwifty" rel="stylesheet">
+  <!-- linkeo para los estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- contenedor principal -->
+  <div class="container">
+    <header>
+      <!-- contenedor de la cabecera -->
+      <div class="header">
+        <!-- logo de Rick and Morty -->
+        <img src="img/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png" alt="Rick and Morty Logo" class="logo">
+        <!-- titulo de la cabecera -->
+        <h1>Rick and Morty</h1>
+      </div>
+    </header>
+    <!-- contenedor de la busqueda -->
+    <div class="search-box">
+      <!-- input de busqueda -->
+      <input type="text" id="searchInput" placeholder="Busca un personaje ..." />
+      <!-- boton de busqueda -->
+      <button id="searchButton">Buscar</button>
+    </div>
+    <!-- contenedor de los resultados -->
+    <div id="results" class="results"></div>
+  </div>
+  <!-- etiqueta para la llamada al archivo js -->
+  <script src="js/app.js"></script>
+</body>
+</html>
