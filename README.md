@@ -2,7 +2,7 @@
 
 **Rick and Morty characters search** es una aplicación web que permite buscar y explorar información sobre el universo de rick and morty utilizando la [Rick and Morty API](https://rickandmortyapi.com/). La aplicación muestra la información basica de los personajes.
 
-## 🚀 Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Búsqueda de personajes**:
   - Permite buscar un personaje por su **nombre**.
@@ -20,7 +20,7 @@
 - **Paginación**:
   - Carga los personajes por lotes de 20 y permite cargar más con un botón.
 
-## 🛠️ Tecnologías Utilizadas
+## 🌐 Tecnologías Utilizadas
 
 - **HTML**: Estructura de la aplicación.
 - **CSS**: Estilos.
@@ -42,7 +42,7 @@ web-api-app
 ├── README.md             # Documentación del proyecto
 ```
 
-## 📋 Cómo Ejecutar el Proyecto
+## 💻 Cómo Ejecutar el Proyecto
 
 1. **Clona el repositorio**:
    ```bash
